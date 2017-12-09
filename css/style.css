@@ -45,6 +45,7 @@ a.button:hover {
 
 #main {
 	background-color: #c4c0be;
+	min-width: 950px;
 	background: #c4c0be url(../images/background_light_slice.jpg) repeat-x;
 }
 #main .container {
@@ -52,12 +53,17 @@ a.button:hover {
 	min-height: 400px
 }
 #footer {
-	background-image:url(images/background_footer.jpg);
+	background-image:url(../images/background_footer.jpg);
 	background-repeat:repeat-x;
 	padding:40px;
 	position:relative;
 	top:-20px;
 	min-height:130px;
+	min-width: 950px;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 .container {
 	width: 950px;
@@ -145,6 +151,7 @@ ul#menu li a.active, ul#menu li a:hover {
 #block_portfolio {
 	overflow: auto;
 	margin-bottom: 20px;
+	min-width: 950px;
 }
 #portfolio_items {
 	width: 615px;
