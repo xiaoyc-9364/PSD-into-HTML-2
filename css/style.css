@@ -1,0 +1,22 @@
+body {
+	margin: 0;padding: 0;
+	background-color: #131211;
+}
+#main {
+	background-color: #c4c0be;
+	background: #c4c0be url(../images/background_light_slice.jpg) repeat-x;
+}
+#main .container {
+	background:  url(../images/background_light.jpg) 0 0 no-repeat;
+	min-height: 400px
+}
+#footer {
+	color: #fff;
+	background:  url(../images/background_footer) 0 0 repeat-x;
+	padding: 40px;
+}
+.container {
+	width: 950px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
